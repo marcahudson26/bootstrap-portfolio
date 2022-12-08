@@ -1,0 +1,50 @@
+body{
+    background-color: black;
+}
+h1{
+    font-size: 80px;
+    font-family: "Satisfy";
+}
+h2 .typewriter {
+    width: 11ch;
+    animation:
+        typing 5s steps(11) infinite,
+        blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    position: absolute;
+}
+
+@keyframes typing {
+    0% {
+        width: 0
+    }
+
+    30% {
+        width: 11ch
+    }
+
+    100% {
+        width: 11ch
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
+.hero-container{
+    height: 500px;
+
+    background-image: url(/assets/profilepic.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: auto;
+}
+.image-hight{
+    max-height: 300px;
+}
+
