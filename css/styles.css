@@ -51,4 +51,14 @@ h2 .typewriter {
     background-position: right;
     background-size: auto;
 }
-
+.hover-shadow:hover {
+    box-shadow: 10px 5px 5px gray;
+ }
+ a:hover  {
+    border-bottom: 1px solid white;
+    color: gray;
+ }
+ a {
+    color: white;
+    text-decoration:none
+ }
