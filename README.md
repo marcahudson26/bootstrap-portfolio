@@ -8,5 +8,7 @@ In the footer there are links to my github, email, linkedin and my downloadable 
 
 ## link to deployed application
 
+https://marcahudson26.github.io/fantastic-bootstrap-portfolio/
+
 ## screenshot 
 ![Screenshot](./assets/screenshot.png)
