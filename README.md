@@ -9,4 +9,4 @@ In the footer there are links to my github, email, linkedin and my downloadable 
 ## link to deployed application
 
 ## screenshot 
-![Screenshot](./assets/screenshot.png)
+![Screenshot](./images/screenshot.png)
