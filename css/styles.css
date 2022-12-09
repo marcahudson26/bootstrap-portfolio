@@ -36,6 +36,13 @@ h2 .typewriter {
         border-color: transparent
     }
 }
+
+.my-projects img {
+    object-fit: cover;
+    object-position: top center;
+    height: 400px;
+}
+
 .hero-container{
     height: 500px;
 
@@ -43,8 +50,5 @@ h2 .typewriter {
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
-}
-.image-hight{
-    max-height: 300px;
 }
 
