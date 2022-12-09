@@ -33,7 +33,7 @@ h1 {
 /* jumbotron styling */
 .hero-container {
     height: 600px;
-    background-image: url(/assets/profilepic1.png);
+    background-image: url(../assets/profilepic1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: auto;
