@@ -1,22 +1,13 @@
+/* body styling */
+
 body {
     background-color: black;
 }
 
+/* h1 and typewriter styling */
 h1 {
     font-size: 80px;
     font-family: "Satisfy";
-}
-
-h2 .typewriter {
-    width: 11ch;
-    animation:
-        typing 5s steps(11) infinite,
-        blink .5s step-end infinite alternate;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: 3px solid;
-    font-family: monospace;
-    position: absolute;
 }
 
 @keyframes typing {
@@ -39,12 +30,7 @@ h2 .typewriter {
     }
 }
 
-.my-projects img {
-    object-fit: cover;
-    object-position: top center;
-    height: 400px;
-}
-
+/* jumbotron styling */
 .hero-container {
     height: 500px;
     background-image: url(/assets/profilepic.png);
@@ -52,7 +38,27 @@ h2 .typewriter {
     background-position: right;
     background-size: auto;
 }
+h2 .typewriter {
+    width: 11ch;
+    animation:
+        typing 5s steps(11) infinite,
+        blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: monospace;
+    position: absolute;
+}
 
+/* my projects image styling */
+.my-projects img {
+    object-fit: cover;
+    object-position: top center;
+    height: 400px;
+}
+
+
+/* hover and a tag styling */
 .hover-shadow:hover {
     box-shadow: 10px 5px 5px gray;
 }
