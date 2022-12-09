@@ -32,10 +32,10 @@ h1 {
 
 /* jumbotron styling */
 .hero-container {
-    height: 500px;
-    background-image: url(/assets/profilepic.png);
+    height: 600px;
+    background-image: url(/images/profilepic.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     background-size: auto;
 }
 h2 .typewriter {
@@ -53,7 +53,7 @@ h2 .typewriter {
 /* my projects image styling */
 .my-projects img {
     object-fit: cover;
-    object-position: top center;
+    object-position: center;
     height: 400px;
 }
 
