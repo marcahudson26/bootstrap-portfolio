@@ -1,10 +1,12 @@
-body{
+body {
     background-color: black;
 }
-h1{
+
+h1 {
     font-size: 80px;
     font-family: "Satisfy";
 }
+
 h2 .typewriter {
     width: 11ch;
     animation:
@@ -43,22 +45,22 @@ h2 .typewriter {
     height: 400px;
 }
 
-.hero-container{
+.hero-container {
     height: 500px;
-
     background-image: url(/assets/profilepic.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: auto;
 }
+
 .hover-shadow:hover {
     box-shadow: 10px 5px 5px gray;
- }
- a:hover  {
+}
+
+a:hover {
     border-bottom: 1px solid white;
     color: gray;
- }
- a {
+}
+a{
     color: white;
-    text-decoration:none
- }
+}
